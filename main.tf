@@ -10,6 +10,8 @@ provider "kubernetes" {
 
 provider "aws" {
   region = var.region
+  access_key = "AKIAXVH6XPDVNWKNVOVI"
+  secret_key = "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"
 }
 
 data "aws_availability_zones" "available" {}
